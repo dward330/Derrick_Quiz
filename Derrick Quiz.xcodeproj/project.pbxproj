@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49026C3E1DCF0DBF0073B58E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 49026C3D1DCF0DBF0073B58E /* README.md */; };
 		49BB95101DB99DFB00763ABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB950F1DB99DFB00763ABC /* AppDelegate.swift */; };
 		49BB95121DB99DFB00763ABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB95111DB99DFB00763ABC /* ViewController.swift */; };
 		49BB95151DB99DFB00763ABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BB95131DB99DFB00763ABC /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49026C3D1DCF0DBF0073B58E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		49BB950C1DB99DFB00763ABC /* Derrick Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Derrick Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BB950F1DB99DFB00763ABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49BB95111DB99DFB00763ABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		49BB950E1DB99DFB00763ABC /* Derrick Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				49026C3D1DCF0DBF0073B58E /* README.md */,
 				49BB950F1DB99DFB00763ABC /* AppDelegate.swift */,
 				49BB95111DB99DFB00763ABC /* ViewController.swift */,
 				49BB95131DB99DFB00763ABC /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49026C3E1DCF0DBF0073B58E /* README.md in Sources */,
 				49BB95121DB99DFB00763ABC /* ViewController.swift in Sources */,
 				49BB95101DB99DFB00763ABC /* AppDelegate.swift in Sources */,
 			);
@@ -297,6 +301,7 @@
 				49BB95201DB99DFB00763ABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
