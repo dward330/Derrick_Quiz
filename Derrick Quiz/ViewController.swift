@@ -44,6 +44,9 @@ class ViewController: UIViewController {
         
         //Load the next question
         questionLabel.text = questions[questionIndex]
+        
+        //Reset the Answer Label back to an unknown state
+        answerLabel.text="???";
     }
     
     //Operations to be completed when showAnswer is clicked
